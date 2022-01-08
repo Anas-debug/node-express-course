@@ -20,5 +20,6 @@
   "homepage": "https://github.com/Anas-debug/node-express-course#readme",
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "devDependencies": {}
 }
