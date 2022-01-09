@@ -19,3 +19,12 @@ app.get('/users',function(req, res){
     })
 })
 //Mocking end
+
+app.get('/users/:id',function(req,res){
+	console.log(req.params.id)
+	res.json({
+		success: true,
+		message: 'got one user',
+		user: req.params.id
+	})
+})
